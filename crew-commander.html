@@ -5,23 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="css/styles.css">
   <title>Frontend Mentor | Space tourism website</title>
 </head>
 <body>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+  <div class="crew-page">
+  <div id="navbar">
+    <span id="logo">
+    <img src="assets/shared/logo.svg" alt="logo">
+    </span>
+    <hr id="nav-line">
+    <nav>
+      <div id="overlay"></div>
+      <div class="nav-items">
+        <div class="nav-item"><a href="index.html">00 <span> Home</span></a></div>
+          <div class="nav-item"><a href="destination-mars.html">01 <span> Destination</span></a></div>
+          <div class="nav-item nav-item-active"><a href="crew-commander.html">02 <span> Crew</span></a></div>
+          <div class="nav-item"><a href="technology-vehicle.html">03 <span> Technology</span></a></div>
+    </div>
+    </nav>
+  </div>
+  
+  <div class="crews">
+    <h5><span class="numbers">02</span>Meet your crew</h5>
+  <h4><span class="numbers">Commander</span></h4>
+  <h3>Douglas Hurley</h3>
 
-  02 Meet your crew
-
-  Commander
-  Douglas Hurley
-
-  Douglas Gerald Hurley is an American engineer, former Marine Corps pilot 
+  <p>Douglas Gerald Hurley is an American engineer, former Marine Corps pilot 
   and former NASA astronaut. He launched into space for the third time as 
-  commander of Crew Dragon Demo-2.
+  commander of Crew Dragon Demo-2.</p>
+  <img src="assets/crew/image-douglas-hurley.png">
+  </div>
+  <div class="circle-buttons">
+    <a href="crew-commander.html"><div class="circle circle-active"></div></a>
+    <a href="crew-specialist.html"><div class="circle"></div></a>
+    <a href="crew-pilot.html"><div class="circle"></div></a>
+    <a href="crew-engineer.html"><div class="circle"></div></a>
+  </div>
+</div>
+
 </body>
 </html>
